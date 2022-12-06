@@ -1,0 +1,100 @@
+#logo-header {
+    width: 50px;
+}
+
+body {
+    background-color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    border: 1px black solid;
+    background-color: black;
+    padding: 5px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+    transition: .4s;
+}
+
+main {
+    border: 1px solid black;
+    background-color: white;
+    width: 80%;
+    margin: 10px auto;
+}
+
+footer {
+    border: 1px solid black;
+    color: white;
+    font-size: 17px;
+    background-color: black;
+}
+
+img {
+    width: 300px;
+}
+
+#ano {
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+#titulo {
+    margin-bottom: 0px;
+    font-size: 17px;
+
+}
+
+#jogadores {
+    width: 150px;
+
+}
+
+#foto-home{
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+table{
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+#legenda{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+td{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+}
